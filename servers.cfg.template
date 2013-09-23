@@ -1,0 +1,5 @@
+[server_name]
+server = user@domain.com:22
+path = '/home/tryton'
+path_modules = /home/tryton/master/modules
+supervisorctl = ''
