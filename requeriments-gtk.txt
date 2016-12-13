@@ -1,0 +1,5 @@
+# GTK
+# apt-get install python-pygoocanvas
+chardet
+GooCalendar
+pygtk

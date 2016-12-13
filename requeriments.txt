@@ -1,0 +1,23 @@
+# bcrypt
+cached-property
+# cdecimal
+Genshi
+ldap3
+lxml>=2.0
+polib
+psycopg2cffi
+pydot
+PyPDF2
+python-dateutil
+python-Levenshtein
+python-stdnum
+python-sql>=0.4
+pytz
+PyWebDAV
+relatorio>=0.2.0
+retrofix
+simpleeval
+# unoconv
+vobject
+werkzeug
+wrapt
