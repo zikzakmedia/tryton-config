@@ -1,3 +1,14 @@
+upstream app_server {
+  # fail_timeout=0 means we always retry an upstream even if it failed
+  # to return a good HTTP response
+
+  # for UNIX domain socket setups
+  server unix:${path}server-${name}.sock fail_timeout=0;
+
+  # for a TCP configuration
+  # server 192.168.0.7:8000 fail_timeout=0;
+}
+
 server {
   listen ${nginx};
   server_name ${name}.zzsaas.com;
@@ -7,13 +18,18 @@ server {
 
   index index.html index.htm;
 
-  server_name _;
   client_max_body_size 50M;
 
   location / {
-    include uwsgi_params;
+    proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+    proxy_set_header Host $$http_host;
+    proxy_redirect off;
+    #proxy_connect_timeout 300;
+    #proxy_send_timeout 300;
+    #proxy_read_timeout 300;
+    #send_timeout 300;
     if ($$request_method = POST) {
-      uwsgi_pass localhost:${port};
+      proxy_pass http://app_server;
       break;
     }
     # First attempt to serve request as file, then
