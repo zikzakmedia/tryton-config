@@ -5,7 +5,7 @@ Genshi
 ldap3
 lxml>=2.0
 polib
-psycopg2cffi
+# psycopg2cffi
 pydot
 PyPDF2
 python-dateutil
