@@ -1,4 +1,4 @@
-upstream app_server {
+upstream app_server_${name} {
   # fail_timeout=0 means we always retry an upstream even if it failed
   # to return a good HTTP response
 
@@ -29,7 +29,7 @@ server {
     #proxy_read_timeout 300;
     #send_timeout 300;
     if ($$request_method = POST) {
-      proxy_pass http://app_server;
+      proxy_pass http://app_server_${name};
       break;
     }
     # First attempt to serve request as file, then
