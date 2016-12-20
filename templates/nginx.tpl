@@ -3,10 +3,10 @@ upstream app_server_${name} {
   # to return a good HTTP response
 
   # for UNIX domain socket setups
-  server unix:${path}server-${name}.sock fail_timeout=0;
+  # server unix:${path}server-${name}.sock fail_timeout=0;
 
   # for a TCP configuration
-  # server 192.168.0.7:8000 fail_timeout=0;
+  server 127.0.0.1:${wsgi} fail_timeout=0;
 }
 
 server {
@@ -24,10 +24,10 @@ server {
     proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
     proxy_set_header Host $$http_host;
     proxy_redirect off;
-    #proxy_connect_timeout 300;
-    #proxy_send_timeout 300;
-    #proxy_read_timeout 300;
-    #send_timeout 300;
+    proxy_connect_timeout 300;
+    proxy_send_timeout 300;
+    proxy_read_timeout 300;
+    send_timeout 300;
     if ($$request_method = POST) {
       proxy_pass http://app_server_${name};
       break;
