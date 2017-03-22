@@ -1,3 +1,4 @@
+barcodenumber
 # bcrypt
 cached-property
 # cdecimal
