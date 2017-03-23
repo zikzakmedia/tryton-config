@@ -2,6 +2,7 @@ barcodenumber
 # bcrypt
 cached-property
 # cdecimal
+emailvalid
 Genshi
 ldap3
 lxml>=2.0
@@ -9,6 +10,7 @@ polib
 # psycopg2cffi
 pydot
 PyPDF2
+PySimpleSOAP
 python-dateutil
 python-Levenshtein
 python-stdnum
