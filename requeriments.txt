@@ -17,7 +17,6 @@ python-Levenshtein
 python-stdnum
 python-sql>=0.4
 pytz
-PyWebDAV
 relatorio>=0.2.0
 retrofix
 simpleeval
