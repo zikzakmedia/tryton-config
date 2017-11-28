@@ -17,10 +17,15 @@ python-Levenshtein
 python-stdnum
 python-sql>=0.4
 pytz
-relatorio>=0.2.0
 retrofix
 simpleeval
 # unoconv
 vobject
 werkzeug
 wrapt
+
+#relatorio
+relatorio>=0.7.0
+python-magic
+pycha>=0.4.0
+pyyaml
