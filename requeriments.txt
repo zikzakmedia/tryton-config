@@ -23,6 +23,7 @@ simpleeval
 vobject
 werkzeug
 wrapt
+stripe
 
 #relatorio
 relatorio>=0.7.0
