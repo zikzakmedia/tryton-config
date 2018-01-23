@@ -1,0 +1,32 @@
+barcodenumber
+# bcrypt
+cached-property
+# cdecimal
+emailvalid
+Genshi
+jinja2
+ldap3
+lxml>=2.0
+polib
+# psycopg2cffi
+pydot
+PyPDF2
+PySimpleSOAP
+python-dateutil
+python-Levenshtein
+python-stdnum
+python-sql>=0.4
+pytz
+retrofix
+simpleeval
+# unoconv
+vobject
+werkzeug
+wrapt
+stripe
+
+#relatorio
+relatorio>=0.7.0
+python-magic
+pycha>=0.4.0
+pyyaml
