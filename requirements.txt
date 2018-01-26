@@ -13,7 +13,6 @@ pydot
 PyPDF2
 PySimpleSOAP
 python-dateutil
-python-Levenshtein
 python-stdnum
 python-sql>=0.4
 pytz
