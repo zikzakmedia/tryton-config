@@ -9,6 +9,7 @@ ldap3
 lxml>=2.0
 polib
 # psycopg2cffi
+psycopg2
 pydot
 PyPDF2
 PySimpleSOAP
