@@ -15,7 +15,7 @@ PySimpleSOAP
 python-dateutil
 python-Levenshtein
 python-stdnum
-python-sql>=0.4
+python-sql>=0.9
 pytz
 retrofix
 simpleeval
