@@ -1,5 +1,5 @@
 barcodenumber
-# bcrypt
+bcrypt
 cached-property
 # cdecimal
 emailvalid
@@ -13,6 +13,7 @@ pydot
 PyPDF2
 PySimpleSOAP
 python-dateutil
+python-Levenshtein
 python-stdnum
 python-sql>=0.4
 pytz
@@ -25,7 +26,8 @@ wrapt
 stripe
 
 #relatorio
-relatorio>=0.7.0
+relatorio[fodt]>=0.7.0
 python-magic
 pycha>=0.4.0
 pyyaml
+html2text
