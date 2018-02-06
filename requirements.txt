@@ -1,4 +1,3 @@
-invoke==0.12.2
 psycopg2>=2.5.0
 hgapi
 blessings
