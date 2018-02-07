@@ -44,3 +44,5 @@ wrapt
 dateutils
 paypalrestsdk
 iso8601
+vobject
+py-wikimarkup
