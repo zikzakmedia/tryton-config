@@ -26,6 +26,7 @@ werkzeug
 wrapt
 stripe
 html2text
+ipaddress
 
 #relatorio
 relatorio[fodt]>=0.7.0
