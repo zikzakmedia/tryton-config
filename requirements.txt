@@ -28,8 +28,11 @@ stripe
 html2text
 ipaddress
 
-#relatorio
+# relatorio
 relatorio[fodt]>=0.7.0
 python-magic
 pycha>=0.4.0
 pyyaml
+
+# account_payment_gateway_paypal
+iso8601
