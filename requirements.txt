@@ -1,5 +1,5 @@
 barcodenumber
-bcrypt
+passlib
 cached-property
 # cdecimal
 emailvalid
