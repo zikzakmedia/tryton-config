@@ -34,6 +34,9 @@ python-magic
 pycha>=0.4.0
 pyyaml
 
+# ldap_authentication
+ldap3>=2.5.1
+
 # account_payment_gateway_paypal
 iso8601
 
