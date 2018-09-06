@@ -5,7 +5,6 @@ cached-property
 emailvalid
 Genshi
 jinja2
-ldap3
 lxml>=2.0
 polib
 # psycopg2cffi
