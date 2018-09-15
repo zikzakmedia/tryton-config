@@ -48,3 +48,5 @@ vobject
 py-wikimarkup
 jinja2
 unicodecsv
+weasyprint
+babel
