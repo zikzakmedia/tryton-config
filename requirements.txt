@@ -47,3 +47,4 @@ iso8601
 vobject
 py-wikimarkup
 jinja2
+unicodecsv
