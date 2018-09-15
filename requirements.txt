@@ -23,13 +23,13 @@ pyusb>=1.0.0b1
 pyserial
 python-stdnum
 pyaml>=13.12.0
-asm
+asm==0.0.3
 correos
 seur
-seurvalencia
+seurvalencia==0.0.3
 simpleeval
 envialia
-mrw
+mrw==0.0.3
 magento
 pystashop
 whoosh
