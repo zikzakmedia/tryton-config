@@ -8,7 +8,7 @@ jinja2
 lxml>=2.0
 polib
 # psycopg2cffi
-psycopg2
+psycopg2-binary
 pydot
 PyPDF2
 PySimpleSOAP
