@@ -48,5 +48,5 @@ vobject
 py-wikimarkup
 jinja2
 unicodecsv
-weasyprint
+weasyprint==0.42.3
 babel
