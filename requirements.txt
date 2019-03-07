@@ -8,7 +8,7 @@ python-sql>=0.8
 polib
 relatorio
 PyWebDAV
-fabric
+fabric==1.14.1
 paramiko>=1.16.0
 Pillow
 barcodenumber
