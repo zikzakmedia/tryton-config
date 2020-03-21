@@ -27,6 +27,13 @@ stripe
 html2text
 ipaddress
 
+# html_report
+babel
+weasyprint
+
+# account_payment_sepa_es
+unidecode
+
 # relatorio
 relatorio[fodt]>=0.7.0
 python-magic
