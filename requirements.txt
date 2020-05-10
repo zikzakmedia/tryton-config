@@ -27,6 +27,12 @@ stripe
 html2text
 ipaddress
 
+# country
+pycountry
+
+# currency
+forex-python
+
 # html_report
 babel
 weasyprint
