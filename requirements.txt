@@ -24,3 +24,5 @@ simpleeval
 vobject
 werkzeug==0.14.1
 wrapt
+babel
+WeasyPrint==0.42.3
