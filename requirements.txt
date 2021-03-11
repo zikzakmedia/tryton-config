@@ -27,7 +27,7 @@ asm==0.0.3
 correos
 seur
 seurvalencia==0.0.3
-simpleeval
+simpleeval==0.9.8
 envialia
 mrw==0.0.3
 magento
