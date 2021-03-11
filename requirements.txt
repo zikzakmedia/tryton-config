@@ -22,5 +22,5 @@ retrofix
 simpleeval
 # unoconv
 vobject
-werkzeug
+werkzeug==0.14.1
 wrapt
