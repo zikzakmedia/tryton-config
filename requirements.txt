@@ -36,6 +36,8 @@ forex-python
 # html_report
 babel
 weasyprint
+qrcode
+python-barcode
 
 # account_payment_sepa_es
 unidecode
