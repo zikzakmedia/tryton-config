@@ -56,3 +56,15 @@ iso8601
 
 # unitest
 mock
+
+# trytond
+defusedxml
+
+# electronic_mail
+bleach
+
+#jinja2
+MarkupSafe==2.0.1
+
+#html_report
+WeasyPrint==52.5
